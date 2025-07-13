@@ -1,0 +1,47 @@
+# Compiled binaries
+bin/
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test coverage
+coverage/
+
+# Lock files (Deno doesn't use them but good to have)
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+
+# Debug and test output files
+debug_*.txt
+test_*.txt
+*_debug*.txt
+improved_*.txt
+final_*.txt
+formatted_*.txt
+fixed_*.txt
+extracted_text.txt
+layout_data.json
+pdf_metadata.json
+
+# Sample PDF files
+*.pdf
+
+# Old README backup
+README_new.md
