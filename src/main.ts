@@ -155,7 +155,8 @@ ${
       console.log(outputContent);
     }
   } catch (error) {
-    console.error(`Error processing PDF: ${error.message}`);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error(`Error processing PDF: ${errorMessage}`);
     Deno.exit(1);
   }
 }

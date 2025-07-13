@@ -388,7 +388,8 @@ export async function extractTextFromPdf(
 
     return extractedText;
   } catch (error) {
-    throw new Error(`Failed to extract text from PDF: ${error.message}`);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to extract text from PDF: ${errorMessage}`);
   }
 }
 

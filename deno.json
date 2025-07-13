@@ -4,6 +4,7 @@
   "description": "Extract text and layout information from PDF files using Mozilla PDF.js",
   "author": "PDF2TXT Library",
   "license": "AGPL",
+  "nodeModulesDir": true,
   "exports": {
     ".": "./src/mod.ts",
     "./cli": "./src/main.ts"
